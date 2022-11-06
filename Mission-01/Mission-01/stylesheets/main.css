@@ -1,0 +1,195 @@
+/* 공통 스타일 */
+@import url("./common/theme.css");
+@import url("./common/base.css");
+
+/* 페이지별 스타일 */
+@import url("./pages/discovery.css");
+
+/* 재사용 스타일 */
+
+/* 아이템 박스 스타일 */
+.box-full {
+  position: relative;
+  width: 502px;
+  padding: 20px;
+  height: var(--height-item);
+  border: 1px solid var(--color-grey-500);
+  margin-right: 16px;  
+  float: left;
+}
+
+.box-half {
+  position: relative;
+  padding: 20px;
+  width: 243px;
+  height: var(--height-item);
+  border: 1px solid var(--color-grey-500);
+  margin-right: 16px;
+  float: left;
+}
+
+/* 아이템 박스  hover focus */
+.box-full:hover, .box-full:focus {
+  border: 1px solid var(--color-blue);
+  transition: all 1.5s;
+}
+
+.box-half:hover, .box-half:focus {
+  border: 1px solid var(--color-blue);
+  transition: all 1.5s;
+}
+
+/* 구매버튼 스타일 */
+.btn-purchase {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* 구역별 박스 스타일 */
+.container {
+  box-sizing: content-box;
+  margin: 0 auto;
+  max-width: 1020px;
+  min-width: 1020px;
+  background-color: #fff;
+  padding: 100px;
+}
+
+.coupang-logo {
+  width: 176px;
+  height: 40px;
+}
+
+.coupang-logo:focus {
+  outline: 1px solid var(--color-blue);
+}
+
+
+.sectoin-title-area {
+  display: flex;
+  align-items: center;
+}
+
+.discovery-section {
+  margin-top: 48px;
+}
+
+.setion-title {
+  font: var(--font-title-medium-24);
+  margin-right: 10px;
+}
+
+
+.setion-sub-title {
+  font: var(--font-title-medium-16);
+  color: var(--color-grey-600);
+  margin-left: 10px;
+}
+
+.section-item-area {
+  margin-top: 24px;
+}
+
+.item-container {
+  clear: both;
+  margin-bottom: 16px;
+  height: var(--height-item);
+}
+
+.item-container:last-child {
+  margin-bottom: 0;
+}
+
+.item-container a:last-child {
+  margin-right: 0;
+}
+
+
+/* 구매버튼 hover focus */
+.box-full:hover .btn-purchase {
+  width: 112px;
+  background-color: var(--color-blue);
+  transition: background-color 1.5s;
+}
+
+.box-full:hover .btn-purchase::before {
+  content: '구매하기';
+  margin-right: 16px;
+  font: var(--font-text-midium-14);
+  line-height: 120%;
+}
+
+.box-full:focus .btn-purchase {
+  width: 112px;
+  background-color: var(--color-blue);
+  transition: background-color 1.5s;
+}
+
+.box-full:focus .btn-purchase::before {
+  content: '구매하기';
+  margin-right: 16px;
+  font: var(--font-text-midium-14);
+  line-height: 120%;
+}
+
+.box-half:hover .btn-purchase {
+  width: 112px;
+  background-color: var(--color-blue);
+  transition: background-color 1.5s;
+}
+
+.box-half:hover .btn-purchase::before {
+  content: '구매하기';
+  margin-right: 16px;
+  font: var(--font-text-midium-14);
+  line-height: 120%;
+}
+
+.box-half:focus .btn-purchase {
+  width: 112px;
+  background-color: var(--color-blue);
+  transition: background-color 1.5s;
+}
+
+.box-half:focus .btn-purchase::before {
+  content: '구매하기';
+  margin-right: 16px;
+  font: var(--font-text-midium-14);
+  line-height: 120%;
+}
+
+/* 화살표 스타일 */
+.arrow {
+  position: absolute;
+  top: calc(50% - 3px);
+  right: 20px;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+  border-top: 2px solid var(--color-gery-100);
+  border-right: 2px solid var(--color-gery-100);
+}
+
+/* 구분선 스타일 */
+.line {
+  color: var(--color-grey-600);
+}
+
+/* 이미지 크기 조정 */
+.item-image {
+  width: 100%;
+  height: 100%;
+}
+
+
+

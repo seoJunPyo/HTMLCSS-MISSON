@@ -1,0 +1,54 @@
+/* Theme 스타일 작성 */
+:root {
+  --color-bg: #e5e5e5;
+  --color-gery-5: #555;
+  --color-gery-100: #f3f3f3;
+  --color-grey-500: #c4c4c4;
+  --color-grey-600: #aaa9a9;
+  --color-grey-800: #4e4e4e;
+  --color-black: #181818;
+  --color-blue: #0074e9;
+  --color-grey-100: #f3f3f3;
+
+  --base-size: 10px;
+  --font-family: 'Noto Sans KR', sans-serif;
+
+  --font-title-bold-16: normal 700 16px/115% 'Noto Sans KR', sans-serif;
+  --font-title-bold-24: normal 700 24px/115% 'Noto Sans KR', sans-serif;
+  --font-title-bold-28: normal 700 28px/115% 'Noto Sans KR', sans-serif;
+  --font-title-bold-32: normal 700 32px/115% 'Noto Sans KR', sans-serif;
+
+  --font-title-medium-16: normal 500 16px/115% 'Noto Sans KR', sans-serif;
+  --font-title-medium-24: normal 500 24px/115% 'Noto Sans KR', sans-serif;
+  --font-title-medium-28: normal 500 28px/115% 'Noto Sans KR', sans-serif;
+  --font-title-medium-32: normal 500 32px/115% 'Noto Sans KR', sans-serif;
+
+  --font-text-12: normal 400 12px/150% 'Noto Sans KR', sans-serif;
+  --font-text-14: normal 400 14px/150% 'Noto Sans KR', sans-serif;
+  --font-text-16: normal 400 16px/150% 'Noto Sans KR', sans-serif;
+  --font-text-18: normal 400 18px/150% 'Noto Sans KR', sans-serif;
+  --font-text-20: normal 400 20px/150% 'Noto Sans KR', sans-serif;
+
+  --font-text-midium-12: normal 500 12px/150% 'Noto Sans KR', sans-serif;
+  --font-text-midium-14: normal 500 14px/150% 'Noto Sans KR', sans-serif;
+  --font-text-midium-16: normal 500 16px/150% 'Noto Sans KR', sans-serif;
+  --font-text-midium-18: normal 500 18px/150% 'Noto Sans KR', sans-serif;
+  --font-text-midium-20: normal 500 20px/150% 'Noto Sans KR', sans-serif;
+  
+  --font-text-bold-12: normal 700 12px/150% 'Noto Sans KR', sans-serif;
+  --font-text-bold-14: normal 700 14px/150% 'Noto Sans KR', sans-serif;
+  --font-text-bold-16: normal 700 16px/150% 'Noto Sans KR', sans-serif;
+  --font-text-bold-18: normal 700 18px/150% 'Noto Sans KR', sans-serif;
+  --font-text-bold-20: normal 700 20px/150% 'Noto Sans KR', sans-serif;
+  
+  --height-item : 310px;
+}
+
+html{
+  font-size: var(--base-size);
+}
+
+/* 나중에 필요한 css propoty
+text border : -webkit-text-stroke : px color ;
+text-shadow: px 번짐 color, px 번짐 color, px 번짐 color, px 번짐 color;
+ */

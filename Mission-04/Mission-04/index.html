@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>헤더 - 쿠팡(Coupang)</title>
+    <link rel="icon" href="/assets/favicon/favicon.png" />
+    <link rel="icon" href="/assets/favicon/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./stylesheets/main.css" />
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <!-- 최상단 로그인 바 영역 -->
+      <div class="log-in-bar-area">
+        <div class="common-inner">
+          <ul class="log-in-bar-list">
+            <li class="log-in-bar-item">
+              <a href="/"> 로그인 </a>
+            </li>
+            <li class="log-in-bar-item">
+              <a href="/"> 회원가입 </a>
+            </li>
+            <li class="log-in-bar-item">
+              <a href="/"> 쿠팡플레이 </a>
+            </li>
+            <li class="log-in-bar-item">
+              <a href="/"> 고객센터 </a>
+            </li>
+            <li class="log-in-bar-item">
+              <a href="/"> 제휴마켓팅 </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- // 최상단 로그인 바 영역 -->
+
+      <div class="search-bar-border">
+        <div class="search-bar-area common-inner">
+          <!-- 카테고리 -->
+          <button class="category--btn">
+            <i class="category-btn-icon"></i>
+            <span class="category-btn-text">카테고리</span>
+          </button>
+          <!-- // 카테고리 -->
+
+          <!-- 로고  -->
+          <a
+            href="https://www.coupang.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="coupang-logo"
+          >
+            <h1 class="only-sound">Coupang</h1>
+          </a>
+          <!-- // 로고 -->
+
+          <!-- 검색바 섹션 -->
+          <div class="search-bar-section">
+            <div class="serch-bar-group">
+              <label class="serch-select-group">
+                <select
+                  class="serch-select"
+                  aria-label="검색분류를 선택할 수 있습니다."
+                >
+                  <option value="">전체</option>
+                </select>
+                <i class="serch-select-arrow">
+                  <svg
+                    width="6"
+                    height="10"
+                    viewBox="0 0 6 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M4.33638 5L0 0.917474L0.974524 0L5.79817 4.54126C6.06728 4.79462 6.06728 5.20538 5.79817 5.45874L0.974524 10L0 9.08253L4.33638 5Z"
+                      fill="#929292"
+                    />
+                  </svg>
+                </i>
+              </label>
+              <input
+                type="search"
+                placeholder="찾고 싶은 상품을 검색해 보세요!"
+                class="search-input"
+              />
+              <button
+                class="serch-voice btn"
+                aria-label="음성으로 검색할 수 있습니다."
+              ></button>
+              <button
+                class="serch-enter btn"
+                aria-label="검색하시려면 클릭해주세요"
+              ></button>
+            </div>
+          </div>
+          <!-- // 검색바 섹션 -->
+
+          <!-- 유저 정보 버튼 섹션 -->
+          <div class="user-btn-section">
+            <div class="myCoupang btn-box">
+              <button class="user-btn-style">
+                <span class="user-btn-text">마이쿠팡</span>
+              </button>
+              <div class="myCoupang-list-container">
+                <ul class="myCoupang-list">
+                  <li class="myCoupang-item">
+                    <a href="/">주문목록</a>
+                  </li>
+                  <li class="myCoupang-item">
+                    <a href="/">취소/반품</a>
+                  </li>
+                  <li class="myCoupang-item">
+                    <a href="/">찜리스트</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="cart btn-box">
+              <button class="user-btn-style">
+                <span class="user-btn-text">장바구니</span>
+              </button>
+              <div class="cart-list-container">
+                <ul class="cart-list">
+                  <li class="cart-item">
+                    <a href=""> 장바구니에 담긴 상품이 없습니다. </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- //유저 정보 버튼 섹션 -->
+
+          <!-- 메뉴바 섹션 -->
+          <div class="mune-bar-section">
+            <a href="/" class="menu-itme">
+              <img
+                src="./assets/icon/icon-rocket.svg"
+                alt="로켓배송 상품 메뉴입니다."
+                class="menu-item-bagde"
+              />
+              <span aria-hidden="true"> 로켓배송 </span>
+            </a>
+            <a href="/" class="menu-itme">
+              <img
+                src="./assets/icon/icon-fresh.svg"
+                alt="로켓프레시 상품 메뉴입니다."
+                class="menu-item-bagde"
+              />
+              <span aria-hidden="true"> 로켓프레시 </span>
+            </a>
+            <a href="/" class="menu-itme">
+              2022년 설날
+              <img
+                src="./assets/icon/new.svg"
+                alt="새로운 상품 메뉴입니다."
+                class="menu-item-bagde-new"
+              />
+            </a>
+            <a href="/" class="menu-itme">로켓직구</a>
+            <a href="/" class="menu-itme">골드박스</a>
+            <a href="/" class="menu-itme">정기배송</a>
+            <a href="/" class="menu-itme">이벤트/쿠폰</a>
+            <a href="/" class="menu-itme">기획전</a>
+            <a href="/" class="menu-itme">여행티켓</a>
+          </div>
+          <!-- // 메뉴바 섹션 -->
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
